@@ -1,0 +1,62 @@
+/**
+intervalz.css by JR Richet
+https://github.com/catbadger/intervalz
+**/
+
+h2{
+    font-size: 2em;
+    text-align:center;
+}
+#container * {
+    background:clear;
+}
+#container {
+    display:block;
+    width:400px;
+    margin: 0 auto;
+    border: 1px solid #666;
+    color:white;
+}
+#directions{
+    background:steelblue;
+    color:white;
+    margin:0px;
+    padding: 1em 0;
+}
+#uxtable,#uxtable *{
+    background: #54be54; /* #54a5be */
+    color:white;
+    width:100%;
+    padding:0 5px;
+}
+#uxtable td{
+    padding:6px;
+}
+#uxtable td.left{
+    text-align:left;
+}
+#uxtable td.center{
+    text-align:center;
+}
+#uxtable td.right{
+    text-align:right;
+}
+#historybox .old {
+    text-decoration:line-through;
+}
+#historybox .new {
+    font-weight:bolder;
+}
+#counter{
+    text-align:center;
+    font-size: 8em;
+}
+.button{
+    cursor:pointer;
+}
+#historybox{
+    color:#000;
+}
+#playbtn i,#resetbtn i{
+    font-size:3em;
+}
